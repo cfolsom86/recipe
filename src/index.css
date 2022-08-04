@@ -11,3 +11,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+button {
+  background-color: lightblue;
+  border-radius: 2rem;
+  border: 2px solid black;
+  padding: .5rem;
+  margin: .2rem;
+}
+
+.search-form {
+  border: 4px solid lightblue;
+  display: grid;
+  grid-template-columns: 1.5fr .5fr;
+  padding: .5rem 2rem;
+  border-radius: 1.5rem;
+}
+
+.search-form > input {
+  border: 2px solid black;
+  border-radius: 2rem;
+  padding: .5rem;
+  margin: .2rem;
+}
