@@ -12,7 +12,7 @@ const App = () => {
   }, []);
   
   const getRecipes = async () => {
-    const response = await fetch(`https://api.edamam.com/search?&app_id=${APP_ID}&app_key=${APP_KEY}`);
+    const response = await fetch(` https://api.edamam.com/api/recipes/v2/search?&app_id=${APP_ID}&app_key=${APP_KEY}`);
     const data = await response.json();
     console.log(data);
 
