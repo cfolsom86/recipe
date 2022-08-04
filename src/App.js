@@ -1,6 +1,5 @@
 import React, {useEffect, useState} from 'react';
 import './App.css';
-import {FcSearch} from 'react-icons/fc';
 
 const App = () => {
 
@@ -23,8 +22,7 @@ const App = () => {
     <div className="App">
       <form className="search-form">
         <input className='search-bar' type="text" />
-      {/* <button className='search-button' type="submit"><faCoffee />Search</button> */}
-        <button className='search-button' type="submit"><FcSearch /></button>
+           <button className='search-button' type="submit">Search</button>
       </form>
     </div>
   );
